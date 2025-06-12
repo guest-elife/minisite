@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 40px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0056b3;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+  margin-top: 20px;
+}
