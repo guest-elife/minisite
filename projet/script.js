@@ -4,7 +4,7 @@ const questions = [
             {
                 question: "Quelle est la date de fondation de la ville de Paris  ?",
                 options: ["1800", "1900", "1850"],
-                answer: "1850"
+                answer: "1800"
             },
             {
                 question: "Quelle rivière traverse Beja ?",
