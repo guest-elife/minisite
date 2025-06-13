@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lieux à visiter</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -9,19 +10,44 @@
   <header>
     <h1>Lieux à visiter</h1>
     <nav>
-      <a href="index.html">Accueil</a>
-      <a href="lieux.html">Lieux</a>
-      <a href="quiz.html">Quiz</a>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="lieux.html">Lieux</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+      </ul>
     </nav>
   </header>
   <main>
-    <section>
+    <section class="lieu">
       <h2>Le Parc Central</h2>
-      <img src="images/lieu1.jpg" alt="Parc Central">
+      <img src="images/lieu1.jpg" alt="Parc Central" class="lieu-image">
       <p>Un grand espace vert au cœur de la ville.</p>
-      <iframe src="https://www.google.com/maps/embed?pb=..." width="300" height="200" loading="lazy"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="200" loading="lazy" title="Localisation du Parc Central"></iframe>
     </section>
-    <!-- Ajoute 2 à 4 autres lieux -->
+
+    <section class="lieu">
+      <h2>La Tour Eiffel</h2>
+      <img src="images/lieu2.jpg" alt="Tour Eiffel" class="lieu-image">
+      <p>Un symbole emblématique de Paris, offrant une vue imprenable sur la ville.</p>
+      <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="200" loading="lazy" title="Localisation de la Tour Eiffel"></iframe>
+    </section>
+
+    <section class="lieu">
+      <h2>Le Musée du Louvre</h2>
+      <img src="images/lieu3.jpg" alt="Musée du Louvre" class="lieu-image">
+      <p>Le plus grand musée d'art au monde, abritant des œuvres célèbres.</p>
+      <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="200" loading="lazy" title="Localisation du Musée du Louvre"></iframe>
+    </section>
+
+    <section class="lieu">
+      <h2>Notre-Dame de Paris</h2>
+      <img src="images/lieu4.jpg" alt="Notre-Dame de Paris" class="lieu-image">
+      <p>Une cathédrale gothique célèbre pour son architecture et son histoire.</p>
+      <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="200" loading="lazy" title="Localisation de Notre-Dame de Paris"></iframe>
+    </section>
   </main>
+  <footer>
+    <p>&copy; 2025 Lieux à visiter. Tous droits réservés.</p>
+  </footer>
 </body>
 </html>
