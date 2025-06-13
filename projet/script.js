@@ -2,7 +2,7 @@
 
 const questions = [
             {
-                question: "Qu'elle est la capitale de la Tunisie ?",
+                question: "Quelle est la date de fondation de la ville  ?",
                 options: ["Tunis", "Kairouan", "Beja", "Sousse"],
                 answer: "Tunis"
             },
