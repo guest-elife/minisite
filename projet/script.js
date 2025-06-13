@@ -25,7 +25,7 @@ const questions = [
             const quiz = document.getElementById("quiz");
             const q = questions[currentQuestion];
 
-            // Create the question text
+         
             quiz.innerHTML = `
                 <div>
                     <h2>${q.question}</h2>
@@ -46,7 +46,7 @@ const questions = [
             
             currentQuestion++;
             
-            // If there are more questions, show the next question, else show the final score
+         
             if (currentQuestion < questions.length) {
                 showQuestion();
             } else {
@@ -62,5 +62,5 @@ const questions = [
             `;
         }
 
-        // Initial call to display the first question
+   
         showQuestion();
