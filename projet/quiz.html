@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz sur la ville</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Quiz : Connaissez-vous votre ville ?</h1>
+    <nav>
+      <a href="index.html">Accueil</a>
+      <a href="lieux.html">Lieux</a>
+      <a href="quiz.html">Quiz</a>
+    </nav>
+  </header>
+  <main>
+    <form id="quizForm">
+      <div>
+        <p>1. Quelle est la date de fondation de la ville ?</p>
+        <input type="radio" name="q1" value="a"> 1800<br>
+        <input type="radio" name="q1" value="b"> 1900<br>
+        <input type="radio" name="q1" value="c"> 1850<br>
+      </div>
+      <!-- Ajoute 2 à 4 autres questions -->
+      <button type="submit">Voir mon score</button>
+    </form>
+    <p id="score"></p>
+  </main>
+  <script src="js/quiz.js"></script>
+</body>
+</html>
