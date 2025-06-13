@@ -7,14 +7,14 @@ const questions = [
                 answer: "1800"
             },
             {
-                question: "Quelle rivière traverse Beja ?",
-                options: ["Oued Zroud", "Oued Madjerda", "Oued Merguellil"],
-                answer: "Oued Madjerda"
+                question: "Quel est le monument le plus célèbre de la ville?",
+                options: ["La tour Effel", "le Colisée", "La status de la liberté"],
+                answer: "La tour Effel"
             },
             {
-                question: "A quelle année la Tunisie a pris son indépendance ?",
-                options: ["1956", "1966", "1967"],
-                answer: "1956"
+                question: "Quelle est la spécialité culinaire de la ville?",
+                options: ["la baguette", "la pizza", "le sushi"],
+                answer: "la baguette"
             }
         ];
 
